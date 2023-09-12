@@ -1,0 +1,165 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/about/page.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/about/page.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/about/page.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+  .about span.page_title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 1rem;
+    background-color: #444444;
+    border-radius: 2px;
+    opacity: .7;
+}
+
+.about h2 {
+    margin-top: 3.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.about .img_wrapper img {
+    width: 100%;
+    height: auto;
+    max-width: 60rem;
+}
+
+.about {
+    padding: 0 2rem;
+}
+
+.about .head {
+    padding: 2rem 0;
+    border-bottom: 1px solid #585656;
+}
+
+.about .head h3 {
+    font-size: 2.5rem;
+}
+
+.about .head h4 {
+    font-size: 1.7rem;
+    color: gainsboro;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+
+.about .body .para {
+    line-height: 2.8rem;
+    font-size: 1.6rem;
+    color: #cacaca;
+    margin: 3rem 0;
+}
+
+.about .body {
+    border-bottom: 1px solid #5f5f5f;
+}
+
+.about .personal_info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .personal_info > div {
+    flex: 1 1;
+}
+
+.about .personal_info {
+    font-size: 1.6rem;
+    padding: 5rem 0;
+    border-bottom: 1px solid #5f5f5f;
+    padding-bottom: 3.5rem;
+    margin-bottom: 6rem;
+}
+
+.about .personal_info span.key {
+    font-weight: 600;
+    display: inline-block;
+    width: 14rem;
+}
+
+.about .personal_info span.value {
+    color: #cacaca;
+}
+
+.about .personal_info .item {
+    margin-bottom: 1.5rem;
+}
+
+.about .cv_section {
+    margin-top: 4rem;
+}
+
+.about .cv_section a {
+    background-color: #fff;
+    color: #404040;
+    padding: 1.8rem 3.7rem;
+    font-size: 1.6rem;
+}
+
+.about .education_experience {
+    margin: 10rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about .education_experience .items {
+    border-left: 1px solid #777777;
+    padding: 1.5rem 1.5rem;
+    flex-direction: column;
+    font-size: 1.4rem;
+    display: flex;
+    gap: 5rem;
+    padding-right: 0;
+}
+
+.about .education_experience .item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.about .education_experience .item .timeline {
+    min-width: 16rem;
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 1.5rem 0;
+    border-radius: 2.3rem;
+    font-size: 1.2rem;
+}
+
+.about .education_experience .item::before {
+    width: 2rem;
+    height: 2rem;
+    content: '';
+    position: absolute;
+    border: 1px solid #777777;
+    border-radius: 50%;
+    left: -26px;
+    background-color: #282828;
+}
+
+.about .education_experience .item .school h4 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.about .education_experience .item .school p {
+    color: gainsboro;
+}
+.about .education_experience > div {flex: 1 1;}
+
+.about .education_experience h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+

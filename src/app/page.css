@@ -1,0 +1,39 @@
+.home {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+    height: calc(100vh - 21rem);
+}
+
+.home .image img {
+    max-width: 20rem;
+    height: auto;
+    padding-top: 2.5rem;
+    border-radius: 4px;
+}
+
+.home h2 {
+    font-size: 7rem;
+}
+
+.home h4 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.home .texts p {
+    font-size: 1.3rem;
+    opacity: 0.7;
+    max-width: 44rem;
+    margin-top: 1rem;
+    line-height: 2.1rem;
+}
+
+.home .texts .icons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1.4rem;
+}
