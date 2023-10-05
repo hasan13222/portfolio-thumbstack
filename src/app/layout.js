@@ -1,4 +1,4 @@
-import HeaderTopBar from "@/components/headerTopBar";
+import HeaderTopBar from "@/components/HeaderTopBar";
 import "./globals.css";
 
 export const metadata = {
