@@ -1,0 +1,58 @@
+.programming__skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.programming__skills .skill {
+    width: 28.5rem;
+    padding: 3rem;
+    background-color: #464646;
+    border-radius: 1px;
+}
+
+.programming__skills .skill span {
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: #515151;
+    border-radius: 50%;
+    width: 5.5rem;
+    height: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.programming__skills .skill h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.programming__skills .skill p {
+    font-size: 1.5rem;
+    color: gainsboro;
+    line-height: 2.7rem;
+}
+
+.programming__skills .skill .empty {
+    width: 2.3rem;
+    height: 1px;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+.programming__skills .skill:hover span {
+    background-color: #5d5d5d;
+    transition: .2s ease;
+}
+
+.programming__skills .skill:hover .empty {
+    width: 100%;
+    transition: .5s ease;
+}
+
+h2.lang_skill_title {
+    padding-top: 4rem;
+}

@@ -2,9 +2,9 @@ import Link from 'next/link'
 import {FaHome, FaUser, FaPencilRuler } from 'react-icons/fa'
 import { BsFillEnvelopeOpenFill, BsBagDashFill, BsFillGearFill } from 'react-icons/bs'
 
-const Header = () => {
+const Header = ({showMenu}) => {
   return (
-    <header className='header'>
+    <header className={showMenu ? 'header active' : 'header'}>
         <div className="header__logo">
             <h1>Jamil</h1>
         </div>

@@ -1,0 +1,23 @@
+.contact form label {
+    display: block;
+    font-size: 1.4rem;
+    margin: 17px 0;
+    margin-bottom: 7px;
+}
+
+.contact form input[type="submit"] {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    color: black;
+    width: auto;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 1.2rem;
+    border: 1px solid #9b9b9b;
+    background: transparent;
+    color: #fff;
+}
