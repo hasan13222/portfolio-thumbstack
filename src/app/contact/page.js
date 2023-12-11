@@ -7,7 +7,30 @@ const Contact = () => {
     const [submitted, setSubmitted] = useState(false)
     const submitHandler = (e) => {
         e.preventDefault();
-        setSubmitted(true);
+        const form = e.target;
+        const name = form.name.value;
+        const email = form.email.value;
+        const message = form.message.value;
+        const newMessage = {
+          name,
+          email,
+          message
+        }
+
+        fetch('http://localhost:5000/send-email', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(newMessage),
+        })
+        .then(res => res.json())
+        .then(data => {
+          if (data.success) {
+            setSubmitted(true);
+          }
+        })
+        .catch(err => {
+          alert("Failed to send. Try again")
+        })
     }
   return (
     <>
@@ -16,14 +39,14 @@ const Contact = () => {
         <h2>Get in Touch</h2>
         <form onSubmit={(e) => submitHandler(e)}>
             <label htmlFor="name">Your Name</label>
-            <input type="text" name="name"/>
+            <input required type="text" name="name"/>
             <label htmlFor="email">Your Email</label>
-            <input type="text" name="email"/>
+            <input required type="text" name="email"/>
             <label htmlFor="message">Your Message</label>
-            <textarea name="message" id="" cols="30" rows="7"></textarea>
+            <textarea required name="message" id="" cols="30" rows="7"></textarea>
             <input type="submit" value="Send" />
         </form>
-        {submitted && <p>Your Message Sent Successfully</p>}
+        {submitted && <p style={{marginTop: '20px', color: 'green', fontSize: '20px'}}>Your Message Sent Successfully</p>}
       </div>
     </>
   );

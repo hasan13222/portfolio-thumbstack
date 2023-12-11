@@ -35,7 +35,7 @@ main.main {
   height: 100vh;
   overflow: auto;
   width: calc(100% - 25rem);
-  background-color: #282828;
+  background-color: rgba(0, 0, 0, 0.9);
   padding: 5rem;
   padding-top: 9rem;
   color: #fff;

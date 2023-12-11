@@ -4,6 +4,7 @@ import { images } from "@/assets";
 import "./page.css";
 
 const About = () => {
+  
   return (
     <div className="about">
       <span className="page_title">About</span>
@@ -77,7 +78,7 @@ const About = () => {
         </div>
       </div>
       <div className="cv_section">
-        <a href="#cv" download>
+        <a href="./cv.pdf" download>
           Download CV
         </a>
       </div>
@@ -119,7 +120,7 @@ const About = () => {
           <div className="items">
             <div className="item">
               <div className="timeline">
-                <span>May, 2023 - Now</span>
+                <span>May, 2023 - Oct, 2023</span>
               </div>
               <div className="school">
                 <h4>Ambition Technologies Ltd.</h4>

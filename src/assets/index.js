@@ -7,6 +7,9 @@ import realEstatePro from '../../public/images/real-estate.png';
 import schoolPro from '../../public/images/school.png';
 import mchPro from '../../public/images/mch.png';
 import portfolioPro from '../../public/images/portfolio.png';
+import fairmarriage from '../../public/images/fairmarriage.png';
+import electrons from '../../public/images/electrons.png';
+import feedthehunger from '../../public/images/feedthehunger.png';
 
 export const images = {
     profilePic,
@@ -17,5 +20,8 @@ export const images = {
     realEstatePro,
     schoolPro,
     mchPro,
-    portfolioPro
+    portfolioPro,
+    fairmarriage,
+    electrons,
+    feedthehunger
 }
