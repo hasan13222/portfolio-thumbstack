@@ -17,7 +17,7 @@ const Contact = () => {
           message
         }
 
-        fetch('http://localhost:5000/send-email', {
+        fetch('https://portfolio-server-indol-omega.vercel.app/send-email', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(newMessage),
