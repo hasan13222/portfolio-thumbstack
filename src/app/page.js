@@ -29,24 +29,12 @@ export default function Home() {
           <h2>Jamil Hasan</h2>
           <h4>React Developer</h4>
           <p>
-            Passionate Web Developer and logical thinker who is happy to
+            I am a passionate Web Developer and logical thinker who is happy to
             introduce himself as a front end developer.
           </p>
-          <div className="icons">
-            <a
-              href="https://www.facebook.com/jamil.butex42/"
-              target="_blank"
-              rel={"noreferrer"}
-            >
-              <FaFacebookF />
-            </a>
-            <a href="https://www.linkedin.com/in/jamil-butex42/">
-              <FaLinkedinIn />
-            </a>
-            <a href="https://github.com/hasan13222">
-              <FaGithub />
-            </a>
-          </div>
+          <p><strong>My Skills:</strong> I am expert in HTML, CSS, Tailwind and Bootstrap. I am comfortable in Javascript and React. I am familiar with Redux, NextJS, NodeJS, ExpressJS, MongoDB. </p>
+          
+          <a href="/projects"><button style={{padding: '1rem', borderRadius: '2px', marginTop: '8px'}}>Portfolio</button></a>
         </div>
       </div>
       {shouldRenderParticles && <DynamicParticleBackground />}
