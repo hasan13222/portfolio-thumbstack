@@ -1,0 +1,38 @@
+[
+    {
+        "title": "MCH School is a school management site where student can admit and see his/her profile. Online courses are available to cart with filter option.",
+        "id": "Project 1",
+        "description": "It is a school management app where students can admit and see their profile. Online courses can be    purchased. Students can update themselves with blogs and galleries. Student Can admit filling up admission form and see their profile after getting admitted. Students can purchase online courses by searching and filtering. Filter implemented by redux",
+        "technologies": "Javascript, React, Redux, NodeJS, ExpressJS, MongoDB",
+        "live_link": "https://illustrious-sherbet-92583d.netlify.app",
+        "code_link": "https://github.com/hasan13222/school-manage",
+        "image": "https://i.ibb.co/6JsM780/mch.png"
+    },
+    {
+        "title": "FeedtheHunger is a food sharing website where anyone can share their surplus food to whom are hungry.",
+        "id": "Project 1",
+        "description": "It is a food sharing website where people can share their surplus food to others who need food. Users can request food, see how many requested and cancel request before delivered by admin. Non-registered user can’t see the details of the food and request. User authenticated by Firebase. After Added Donor can edit, change status and even delete his/her foods.",
+        "technologies": "Javascript, React, Tailwind, NodeJS, ExpressJS, MongoDB",
+        "live_link": "https://feedthehunger-d390c.web.app",
+        "code_link": "https://github.com/hasan13222/feed-the-hunger",
+        "image": "https://i.ibb.co/sjjs0rn/feedthehunger.png"
+    },
+    {
+        "title": "Fairmarriage is a matrimonial site front end where user can get their desired bride/groom and get married.",
+        "id": "Project 1",
+        "description": "It is a matrimony site where users can add their biodata and see others biodata. Normal users have no access of others biodata contact info, but premium users have. If normal users request for the contact info, pay a certain amount and the admin approves the request, they can see the contact info from their dashboard. Admin can make other users premium or admin and see the users, requests and revenues.",
+        "technologies": "Javascript, React, Bootstrap, NodeJS, ExpressJS, MongoDB",
+        "live_link": "https://fairmarriage-fb268.web.app",
+        "code_link": "https://github.com/hasan13222/fairmarriage",
+        "image": "https://i.ibb.co/cvCWms0/fairmarriage.png"
+    },
+    {
+        "title": "Electrons is Electronics brand website where products are arranged  grouping by brand. User can add any product to cart and delete if he wants.",
+        "id": "Project 4",
+        "description": "Electrons is Electronics brand website where products are arranged  grouping by brand. User can add any product to cart and delete if he wants. User Authentication by Firebase Products and brand advertisement presented in a slider. Product Details can be seen by clicking details button. Product can be updated by clicking update button. Product can be added in the cart by clicking add to cart button. Product in the cart can be removed by clicking delete button",
+        "technologies": "React, Firbase, MongoDB, ExpressJS, NodeJS",
+        "live_link": "https://electrons-1d175.web.app",
+        "code_link": "https://github.com/hasan13222/electrons",
+        "image": "https://i.ibb.co/JRhv4P3/electrons.png"
+    }
+]

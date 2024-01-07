@@ -15,7 +15,6 @@ const Skills = () => {
           <Skill
           key={item.id}
           desc={item.description}
-          skillOrder={item.id}
           title={item.title}
           />
         ))}

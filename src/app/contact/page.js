@@ -44,7 +44,7 @@ const Contact = () => {
             <input required type="text" name="email"/>
             <label htmlFor="message">Your Message</label>
             <textarea required name="message" id="" cols="30" rows="7"></textarea>
-            <input type="submit" value="Send" />
+            <input style={{cursor: "pointer"}} type="submit" value="Send" />
         </form>
         {submitted && <p style={{marginTop: '20px', color: 'green', fontSize: '20px'}}>Your Message Sent Successfully</p>}
       </div>
